@@ -1,0 +1,30 @@
+{
+  "orgName": "KTI Technologies, Inc.",
+  "edition": "Enterprise",
+  "features": ["Communities", "ServiceCloud", "PersonAccounts", "MultiCurrency","B2BCommerce"],
+  "releaseName__c" : "Release-2022-1",
+  "userStory__c" : "US-2345",
+  "settings": {
+      "communitiesSettings": {
+          "enableNetworksEna0bled": true
+      },
+      "mobileSettings": {
+          "enableS1EncryptedStoragePref2": true
+      },
+      "omniChannelSettings": {
+          "enableOmniChannel": true
+      },
+      "caseSettings": {
+          "systemUserEmail": "support@acme.com"
+      }
+  },
+  "objectSettings": {
+      "opportunity": {
+        "sharingModel": "private",
+        "defaultRecordType": "default"
+      },
+      "account": {
+        "defaultRecordType": "default"
+      }
+  }
+}
